@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.video-intro{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.nav-principal ul{
+    display: none;
+}
+.nav-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+.nav-principal img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #000;
+    padding-top: 5px;
+}
+.nav-principal i{
+    font-size: 30px;
+    color: #666;
+    text-shadow: 4px 4px 4px #000; 
+}
+.nav-secundario{
+    
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+    backdrop-filter: opacity(20%);
+    padding: 4px;
+}
+.nav-secundario ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.nav-secundario ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.nav-secundario ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-secundario ul li:hover a{
+    color:#999;
+}
+.text-inicial{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.section-musica h2{
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.section-musica img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+}
+.foto-parque{
+    object-fit: cover;
+    object-position: 0 -10px;
+}
+.fotos-mmusica{
+    display: flex;
+}
+.section-musica2 h2{
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.section-musica2 audio{
+    color: #444;
+}
+.renacuajo{
+    margin: 10px;
+}
+.section-video h2{
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.section-video video{
+    display: block;
+    margin: 10px auto;
+    height: 180px;
+    border-radius: 10px;
+}
